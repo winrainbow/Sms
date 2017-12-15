@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="defaultText" format="string" />
+    <attr name="defaultIvSrc" format="reference" />
+    <declare-styleable name="DefaultView">
+        <attr name="defaultText" />
+        <attr name="defaultIvSrc" />
+    </declare-styleable>
+</resources>

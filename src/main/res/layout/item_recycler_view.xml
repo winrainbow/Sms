@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/item_view_bg"
+    >
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:src="@drawable/icon_missedcall"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/color_2c363a"
+        android:id="@+id/tv_des"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="来自温森特[185-0081-7327]"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/color_2c363a"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_time"
+        android:text="2017-11-01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_below="@id/tv_des"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/img_card_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/color_000000"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="14dp"
+            android:lineSpacingExtra="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="您好你的货到了下午可来领取你的货到了下午可来领取你的货到了下午可来领取你的货到了下午可来领取你的货到了下午可来领取"
+            />
+    </LinearLayout>
+</RelativeLayout>

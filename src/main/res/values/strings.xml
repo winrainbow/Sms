@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">双享电话</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_forward">呼叫转移</string>
+    <string name="menu_permission">权限检查</string>
+    <string name="menu_update">检查更新</string>
+    <string name="menu_about">关于</string>
+    <string name="login_des">请使用微信扫描二维码进行登录</string>
+    <string name="default_desc">点击开启，开始使用</string>
+    <string name="bind_desc">点击头像，暂停使用</string>
+    <string name="no_sms_tip">没有短信</string>
+    <string name="no_call_tip">没有未接来电</string>
+    <string name="db_loading">正在加载中...</string>
+    <string name="start">开启</string>
+</resources>
